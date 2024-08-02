@@ -27,6 +27,19 @@ const Home = () => {
             </Dialog>
 
             <Container >
+                <Link to="/blog-post-3" style={{ textDecoration: 'none' }}>
+                    <Card style={{ margin: '20px 0', border: '5px solid #8fc641', borderRadius:'10px', backgroundColor:'#f1eafb', color:'#8fc641' }}>
+                        <CardContent>
+                            <Typography variant="h5" component="h2">
+                                Blog: Week 4
+                            </Typography>
+                            <Typography color="#a2d062">
+                                Breakable Toy (Part I)
+                            </Typography>
+                        </CardContent>
+                    </Card>
+                </Link>
+
                 <Link to="/tech-blog-post-2" style={{ textDecoration: 'none' }}>
                     <Card style={{ margin: '20px 0', border: '5px solid #41c1ef', borderRadius:'10px', backgroundColor:'#f1eafb', color:'#41c1ef' }}>
                         <CardContent>
