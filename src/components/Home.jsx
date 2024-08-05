@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Container, Card, CardContent, Typography, Dialog, DialogTitle, DialogContent } from '@mui/material';
 import { Link } from 'react-router-dom'
 import Header from './Header';
-import aboutPicture from '../assets/about-pic.png'; 
+import aboutPicture from '../assets/about-pic.jpg'; 
 
 const Home = () => {
     const [open, setOpen] = useState(false);
@@ -26,7 +26,7 @@ const Home = () => {
                         <Typography>
                             Hello there! My name is Sotero and I am a recent CS graduate working currently as a technology consultant and participating in 
                             the Spark program at Encora. I am very interested in AI/ML and am studying to certify myself with cloud computing for
-                            to AI/ML applications. Apart from my coding life, I love sports, music, and literature. 
+                            AI/ML applications. Apart from my coding life, I love sports, music, and literature. 
                         </Typography>
                         </div>
                     </DialogContent>
