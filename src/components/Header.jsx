@@ -1,6 +1,7 @@
 import React from 'react';
 import { Typography, Button } from '@mui/material';
 import encoraLogo from '../assets/encora-logo.svg';
+import profilePicture from '../assets/profile-pic.png';
 
 const Header = ({ onOpen }) => (
   <div style={{ width: '100%', backgroundColor: '#44197e', padding: '20px 0' }}>
@@ -13,14 +14,16 @@ const Header = ({ onOpen }) => (
         variant="contained"
         style={{
           color: '#44197e',
-          backgroundColor: '#bc9aff',
+          backgroundColor: 'white',
           borderRadius: '50%',
+          border: '4px solid #d5bff2',
           minWidth: '40px',
-          minHeight: '40px'
+          minHeight: '40px',
+          padding: '0'
         }}
         onClick={onOpen}
       >
-        S
+      <img src={profilePicture} alt="Profile Picture" style={{ maxWidth: '40px', maxHeight: '40px', borderRadius: '50%', padding: '0', margin: '0'}}/>
       </Button>
     </div>
   </div>

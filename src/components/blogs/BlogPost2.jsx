@@ -5,12 +5,15 @@ const BlogPost2 = () => {
     return (
         <div style={{ backgroundColor: '#bc9aff', minHeight: '100vh', padding: '20px' }}>
             <div style={{ backgroundColor: '#44197e', width: '100%', margin: '0', textAlign: 'center' }}>
-                <Typography variant="h2" align="center" color="white" gutterBottom>
+                <Typography variant="h2" align="center" color="white" gutterBottom style={{marginBottom: '0px'}}>
                     Week 3
+                </Typography>
+                <Typography variant="h4" align="center" color="white" gutterBottom style={{paddingBottom: '10px'}}>
+                    Leetcode Challenge
                 </Typography>
             </div>
             <Container>
-                <Typography variant="h4">
+                <Typography variant="h6">
                     Day 1
                 </Typography>
                 <Typography variant="body1" paragraph>
@@ -32,14 +35,14 @@ const BlogPost2 = () => {
                     I'm nout sure if I will be prepared enough for the ML certification, but if not,
                     at least I will get the Developer one. Today I learned about Load Balancers in AWS.
                 </Typography>
-                <Typography variant="h4">
+                <Typography variant="h6">
                     Day 2
                 </Typography>
                 <Typography variant="body1" paragraph>
                     I continued with DSA practice with videos and some problems on
                     Leetcode. I also learned about Auto Scaling Groups in AWS. 
                 </Typography>
-                <Typography variant="h4">
+                <Typography variant="h6">
                     Day 3
                 </Typography>
                 <Typography variant="body1" paragraph>
@@ -49,7 +52,7 @@ const BlogPost2 = () => {
                     technical aspect and implementation methods, it was very interesting
                     to see what Google has to offer in terms of AI solutions.
                 </Typography>
-                <Typography variant="h4">
+                <Typography variant="h6">
                     Day 4
                 </Typography>
                 <Typography variant="body1" paragraph>
@@ -57,7 +60,7 @@ const BlogPost2 = () => {
                     easier variants of the problem. It was a fun exercise. I also learned
                     about relational databases and Aurora for AWS. 
                 </Typography>
-                <Typography variant="h4">
+                <Typography variant="h6">
                     Day 5
                 </Typography>
                 <Typography variant="body1" paragraph>
@@ -68,14 +71,14 @@ const BlogPost2 = () => {
                 <Typography variant="body1" paragraph>
                     I also attended the 'Newbie Friday' event. I had fun. Shame I had to leave early.
                 </Typography>
-                <Typography variant="h4">
+                <Typography variant="h6">
                     Weekend
                 </Typography>
                 <Typography variant="body1" paragraph>
                     I know I shouldn't do much on weekends and try to rest, but I didn't organize properly. It's okay, 
                     as the tasks I have left are just uploading the stuff I already did rather than doing everyting. 
                 </Typography>
-                <Typography variant="h4">
+                <Typography variant="h6">
                     Overall Conclusions:
                 </Typography>
                 <Typography>

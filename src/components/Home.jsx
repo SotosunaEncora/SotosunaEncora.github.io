@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Container, Card, CardContent, Typography, Dialog, DialogTitle, DialogContent } from '@mui/material';
 import { Link } from 'react-router-dom'
 import Header from './Header';
+import aboutPicture from '../assets/about-pic.png'; 
 
 const Home = () => {
     const [open, setOpen] = useState(false);
@@ -17,13 +18,18 @@ const Home = () => {
     return (
         <div>
             <Header onOpen={handleClickOpen} />
-            <Dialog open={open} onClose={handleClose}>
-                <DialogTitle>About Me</DialogTitle>
-                <DialogContent>
-                    <Typography>
-                    This is some information about me.
-                    </Typography>
-                </DialogContent>
+            <Dialog open={open} onClose={handleClose} PaperProps={{ style: { borderRadius: '10px', border: '5px solid #d5bff2' }}}>
+                    <DialogTitle style={{textAlign: 'center' }}>About Me</DialogTitle>
+                    <DialogContent>
+                        <div style={{alignItems: 'center', display: 'flex', flexDirection: 'column'}}>
+                        <img src={aboutPicture} alt="Profile Picture" style={{ maxWidth: '189px', height: 'auto', borderRadius: '10px', marginBottom: '20px'}}/>
+                        <Typography>
+                            Hello there! My name is Sotero and I am a recent CS graduate working currently as a technology consultant and participating in 
+                            the Spark program at Encora. I am very interested in AI/ML and am studying to certify myself with cloud computing for
+                            to AI/ML applications. Apart from my coding life, I love sports, music, and literature. 
+                        </Typography>
+                        </div>
+                    </DialogContent>
             </Dialog>
 
             <Container >
@@ -40,7 +46,7 @@ const Home = () => {
                     </Card>
                 </Link>
 
-                <Link to="/tech-blog-post-2" style={{ textDecoration: 'none' }}>
+                <Link to="/tech-log-post-2" style={{ textDecoration: 'none' }}>
                     <Card style={{ margin: '20px 0', border: '5px solid #41c1ef', borderRadius:'10px', backgroundColor:'#f1eafb', color:'#41c1ef' }}>
                         <CardContent>
                             <Typography variant="h5" component="h2">
@@ -52,7 +58,7 @@ const Home = () => {
                         </CardContent>
                     </Card>
                 </Link>
-                <Link to="/tech-blog-post-1" style={{ textDecoration: 'none' }}>
+                <Link to="/tech-log-post-1" style={{ textDecoration: 'none' }}>
                     <Card style={{ margin: '20px 0', border: '5px solid #41c1ef', borderRadius:'10px', backgroundColor:'#f1eafb', color:'#41c1ef' }}>
                         <CardContent>
                             <Typography variant="h5" component="h2">

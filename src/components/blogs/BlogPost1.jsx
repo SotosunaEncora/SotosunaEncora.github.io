@@ -5,8 +5,11 @@ const BlogPost1 = () => {
     return (
         <div style={{ backgroundColor: '#bc9aff', minHeight: '100vh', padding: '20px' }}>
             <div style={{ backgroundColor: '#44197e', width: '100%', margin: '0', textAlign: 'center' }}>
-                <Typography variant="h2" align="center" color="white" gutterBottom>
+                <Typography variant="h2" align="center" color="white" gutterBottom style={{marginBottom: '0px'}}>
                     Weeks 1 & 2
+                </Typography>
+                <Typography variant="h4" align="center" color="white" gutterBottom style={{paddingBottom: '10px'}}>
+                    Onboarding
                 </Typography>
             </div>
             <Container>
