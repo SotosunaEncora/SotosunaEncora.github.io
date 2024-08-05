@@ -1,16 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.0b0cd598.css",
-    "main.js": "/static/js/main.05f6aeb1.js",
+    "main.js": "/static/js/main.ed9b8d94.js",
     "static/js/453.019487f0.chunk.js": "/static/js/453.019487f0.chunk.js",
+    "static/media/about-pic.png": "/static/media/about-pic.a110295df29633f664fe.png",
+    "static/media/profile-pic.png": "/static/media/profile-pic.e28ae4d7990802a89ea0.png",
     "static/media/encora-logo.svg": "/static/media/encora-logo.e1fc32ad397632baa8afe22b1d4cd33f.svg",
     "index.html": "/index.html",
     "main.0b0cd598.css.map": "/static/css/main.0b0cd598.css.map",
-    "main.05f6aeb1.js.map": "/static/js/main.05f6aeb1.js.map",
+    "main.ed9b8d94.js.map": "/static/js/main.ed9b8d94.js.map",
     "453.019487f0.chunk.js.map": "/static/js/453.019487f0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0b0cd598.css",
-    "static/js/main.05f6aeb1.js"
+    "static/js/main.ed9b8d94.js"
   ]
 }
