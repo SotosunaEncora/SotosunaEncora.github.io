@@ -113,7 +113,7 @@ const BlogPost2 = () => {
             <List>
                 <ListItem>
                     <Typography>
-                        • Finish To-Do App (mostly missing the back-end) portion
+                        • Finish To-Do App (mostly missing the back-end portion)
                     </Typography>
                 </ListItem>
                 <ListItem>
@@ -123,7 +123,7 @@ const BlogPost2 = () => {
                 </ListItem>
                 <ListItem>
                     <Typography>
-                        • Use timeboxing more thoroughly and the pomodoro technique
+                        • Use timeboxing more thoroughly and apply the pomodoro technique for better efficiency and performance
                     </Typography>
                 </ListItem>
             </List>
