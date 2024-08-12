@@ -1,8 +1,5 @@
 import React from 'react';
 import { Container, Typography, List, ListItem} from '@mui/material';
-import shouldSpreadAdditionalProps from '../../../node_modules/@mui/material/modern/utils/shouldSpreadAdditionalProps';
-import useTouchRipple from '../../../node_modules/@mui/material/useTouchRipple/useTouchRipple';
-import App from '../../App';
 
 const BlogPost2 = () => {
   return (

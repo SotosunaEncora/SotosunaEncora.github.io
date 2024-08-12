@@ -1,7 +1,5 @@
 import React from 'react';
-import { Container, Typography , AccordionDetails} from '@mui/material';
-import shouldSpreadAdditionalProps from '@mui/material/modern/utils/shouldSpreadAdditionalProps';
-import useTouchRipple from '@mui/material/useTouchRipple/useTouchRipple';
+import { Container, Typography } from '@mui/material';
 
 const TechLogPost2 = () => {
     return (

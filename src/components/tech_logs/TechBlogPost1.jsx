@@ -1,8 +1,5 @@
 import React from 'react';
 import { Container, Typography } from '@mui/material';
-import shouldSpreadAdditionalProps from '@mui/material/modern/utils/shouldSpreadAdditionalProps';
-import useTouchRipple from '@mui/material/useTouchRipple/useTouchRipple';
-import {withEmotionCache} from '@emotion/react';
 
 const TechLogPost1 = () => {
     return (

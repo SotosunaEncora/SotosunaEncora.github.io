@@ -23,7 +23,7 @@ const Header = ({ onOpen }) => (
         }}
         onClick={onOpen}
       >
-      <img src={profilePicture} alt="Profile Picture" style={{ maxWidth: '40px', maxHeight: '40px', borderRadius: '50%', padding: '0', margin: '0'}}/>
+      <img src={profilePicture} alt="Formal me" style={{ maxWidth: '40px', maxHeight: '40px', borderRadius: '50%', padding: '0', margin: '0'}}/>
       </Button>
     </div>
   </div>
