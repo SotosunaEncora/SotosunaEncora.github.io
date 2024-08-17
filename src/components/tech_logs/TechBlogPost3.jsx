@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Typography } from '@mui/material';
+import {Container, Typography, List, ListItem } from '@mui/material';
 
 const TechLogPost3 = () => {
     return (
@@ -23,7 +23,48 @@ const TechLogPost3 = () => {
                     Context
                 </Typography>
                 <Typography variant="body1" paragraph>
-                   
+                   We were given the task to create a full-stack To-Do app that can handle all CRUD operations, do some filtering and 
+                   sorting for the tasks, and include some completion metrics. The functional requirements were the following:
+                </Typography>
+                <List>
+                    <ListItem>
+                        <Typography>
+                            1. Create a task, specifying the name, a priority, and possibly, a due date.
+                        </Typography>
+                    </ListItem>
+                    <ListItem>
+                        <Typography>
+                            2. Ability to edit name, priority, and due date for existing tasks.
+                        </Typography>
+                    </ListItem>
+                    <ListItem>
+                        <Typography>
+                            3. Ability to filter tasks by specifying the name, priority, and/or whether they are done or not.
+                        </Typography>
+                    </ListItem>
+                    <ListItem>
+                        <Typography>
+                            4. Ability to sort tasks by priority and/or due date.
+                        </Typography>
+                    </ListItem>
+                    <ListItem>
+                        <Typography>
+                            5. Change done status of tasks. 
+                        </Typography>
+                    </ListItem>
+                    <ListItem>
+                        <Typography>
+                            5. Pagination of tasks.
+                        </Typography>
+                    </ListItem>
+                    <ListItem>
+                        <Typography>
+                            6. Ability to know completion time metrics of all tasks as well as for each priority. 
+                        </Typography>
+                </ListItem>
+                </List>
+                <Typography variant="body1" paragraph>
+                   The UI/UX can be seen in the following image:
                 </Typography>
                 <Typography variant="h4">
                     Solution
