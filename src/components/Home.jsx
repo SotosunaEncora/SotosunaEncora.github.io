@@ -33,7 +33,7 @@ const Home = () => {
             </Dialog>
 
             <Container >
-            <Link to="/blog-post-5" style={{ textDecoration: 'none' }}>
+                <Link to="/blog-post-5" style={{ textDecoration: 'none' }}>
                     <Card style={{ margin: '20px 0', border: '5px solid #8fc641', borderRadius:'10px', backgroundColor:'#f1eafb', color:'#8fc641' }}>
                         <CardContent>
                             <Typography variant="h5" component="h2">
@@ -41,18 +41,6 @@ const Home = () => {
                             </Typography>
                             <Typography color="#a2d062">
                                 Demo Presentation
-                            </Typography>
-                        </CardContent>
-                    </Card>
-                </Link>
-            <Link to="/blog-post-4" style={{ textDecoration: 'none' }}>
-                    <Card style={{ margin: '20px 0', border: '5px solid #8fc641', borderRadius:'10px', backgroundColor:'#f1eafb', color:'#8fc641' }}>
-                        <CardContent>
-                            <Typography variant="h5" component="h2">
-                                Blog: Week 5
-                            </Typography>
-                            <Typography color="#a2d062">
-                                Breakable Toy (Part II)
                             </Typography>
                         </CardContent>
                     </Card>
@@ -69,6 +57,19 @@ const Home = () => {
                         </CardContent>
                     </Card>
                 </Link>
+                <Link to="/blog-post-4" style={{ textDecoration: 'none' }}>
+                    <Card style={{ margin: '20px 0', border: '5px solid #8fc641', borderRadius:'10px', backgroundColor:'#f1eafb', color:'#8fc641' }}>
+                        <CardContent>
+                            <Typography variant="h5" component="h2">
+                                Blog: Week 5
+                            </Typography>
+                            <Typography color="#a2d062">
+                                Breakable Toy (Part II)
+                            </Typography>
+                        </CardContent>
+                    </Card>
+                </Link>
+                
                 <Link to="/blog-post-3" style={{ textDecoration: 'none' }}>
                     <Card style={{ margin: '20px 0', border: '5px solid #8fc641', borderRadius:'10px', backgroundColor:'#f1eafb', color:'#8fc641' }}>
                         <CardContent>
