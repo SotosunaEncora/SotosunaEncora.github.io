@@ -1,19 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.0b0cd598.css",
-    "main.js": "/static/js/main.47547f68.js",
+    "main.js": "/static/js/main.6f91893e.js",
     "static/js/453.019487f0.chunk.js": "/static/js/453.019487f0.chunk.js",
     "static/media/about-pic.jpg": "/static/media/about-pic.51caa6c1d39d5aecaf9c.jpg",
     "static/media/profile-pic.png": "/static/media/profile-pic.e28ae4d7990802a89ea0.png",
+    "static/media/flights-results-ui-ux.png": "/static/media/flights-results-ui-ux.175e245e37dcc1bdf878.png",
     "static/media/todo-ui-ux.png": "/static/media/todo-ui-ux.b8a185355fc26d3f3d00.png",
+    "static/media/flight-details-ui-ux.png": "/static/media/flight-details-ui-ux.2bd75fcdac3c709892e8.png",
+    "static/media/flight-search-ui-ux.png": "/static/media/flight-search-ui-ux.bdf729ad022494549416.png",
     "static/media/encora-logo.svg": "/static/media/encora-logo.e1fc32ad397632baa8afe22b1d4cd33f.svg",
     "index.html": "/index.html",
     "main.0b0cd598.css.map": "/static/css/main.0b0cd598.css.map",
-    "main.47547f68.js.map": "/static/js/main.47547f68.js.map",
+    "main.6f91893e.js.map": "/static/js/main.6f91893e.js.map",
     "453.019487f0.chunk.js.map": "/static/js/453.019487f0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0b0cd598.css",
-    "static/js/main.47547f68.js"
+    "static/js/main.6f91893e.js"
   ]
 }
