@@ -11,6 +11,7 @@ import BlogPost7 from './components/blogs/BlogPost7';
 import TechBlogPost1 from './components/tech_logs/TechBlogPost1';
 import TechBlogPost2 from './components/tech_logs/TechBlogPost2';
 import TechBlogPost3 from './components/tech_logs/TechBlogPost3';
+import TechBlogPost4 from './components/tech_logs/TechBlogPost4';
 
 const App = () => {
   return (
@@ -27,6 +28,7 @@ const App = () => {
         <Route path="/tech-log-post-1" element={<TechBlogPost1 />} />
         <Route path="/tech-log-post-2" element={<TechBlogPost2 />} />
         <Route path="/tech-log-post-3" element={<TechBlogPost3 />} />
+        <Route path="/tech-log-post-4" element={<TechBlogPost4 />} />
       </Routes>
     </Router>
   );

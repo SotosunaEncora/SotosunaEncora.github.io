@@ -33,6 +33,18 @@ const Home = () => {
             </Dialog>
 
             <Container >
+            <Link to="/tech-log-post-4" style={{ textDecoration: 'none' }}>
+                    <Card style={{ margin: '20px 0', border: '5px solid #41c1ef', borderRadius:'10px', backgroundColor:'#f1eafb', color:'#41c1ef' }}>
+                        <CardContent>
+                            <Typography variant="h5" component="h2">
+                                Tech Blog: Breakable Toy II
+                            </Typography>
+                            <Typography color="#8ad8f5">
+                                Flight Search App with Amadeus API
+                            </Typography>
+                        </CardContent>
+                    </Card>
+                </Link>
             <Link to="/blog-post-7" style={{ textDecoration: 'none' }}>
                     <Card style={{ margin: '20px 0', border: '5px solid #8fc641', borderRadius:'10px', backgroundColor:'#f1eafb', color:'#8fc641' }}>
                         <CardContent>
