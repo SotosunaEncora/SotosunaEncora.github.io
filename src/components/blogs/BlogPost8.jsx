@@ -9,7 +9,7 @@ const BlogPost8 = () => {
                 Week 9
             </Typography>
             <Typography variant="h4" align="center" color="white" gutterBottom style={{paddingBottom: '10px'}}>
-                Demo Presentation (Postponed)
+                Demo Presentation II (Postponed)
             </Typography>
         </div>
         <Container>

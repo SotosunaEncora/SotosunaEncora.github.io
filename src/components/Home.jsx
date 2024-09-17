@@ -33,6 +33,18 @@ const Home = () => {
             </Dialog>
 
             <Container >
+            <Link to="/blog-post-8" style={{ textDecoration: 'none' }}>
+                    <Card style={{ margin: '20px 0', border: '5px solid #8fc641', borderRadius:'10px', backgroundColor:'#f1eafb', color:'#8fc641' }}>
+                        <CardContent>
+                            <Typography variant="h5" component="h2">
+                                Blog: Week 9
+                            </Typography>
+                            <Typography color="#a2d062">
+                                Demo Presentation II (Postponed)
+                            </Typography>
+                        </CardContent>
+                    </Card>
+            </Link>
             <Link to="/tech-log-post-4" style={{ textDecoration: 'none' }}>
                     <Card style={{ margin: '20px 0', border: '5px solid #41c1ef', borderRadius:'10px', backgroundColor:'#f1eafb', color:'#41c1ef' }}>
                         <CardContent>
@@ -44,7 +56,7 @@ const Home = () => {
                             </Typography>
                         </CardContent>
                     </Card>
-                </Link>
+            </Link>
             <Link to="/blog-post-7" style={{ textDecoration: 'none' }}>
                     <Card style={{ margin: '20px 0', border: '5px solid #8fc641', borderRadius:'10px', backgroundColor:'#f1eafb', color:'#8fc641' }}>
                         <CardContent>
@@ -56,7 +68,7 @@ const Home = () => {
                             </Typography>
                         </CardContent>
                     </Card>
-                </Link>
+            </Link>
             <Link to="/blog-post-6" style={{ textDecoration: 'none' }}>
                     <Card style={{ margin: '20px 0', border: '5px solid #8fc641', borderRadius:'10px', backgroundColor:'#f1eafb', color:'#8fc641' }}>
                         <CardContent>
