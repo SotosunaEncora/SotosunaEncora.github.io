@@ -9,6 +9,7 @@ import BlogPost5 from './components/blogs/BlogPost5';
 import BlogPost6 from './components/blogs/BlogPost6';
 import BlogPost7 from './components/blogs/BlogPost7';
 import BlogPost8 from './components/blogs/BlogPost8';
+import BlogPost9 from './components/blogs/BlogPost9';
 import TechBlogPost1 from './components/tech_logs/TechBlogPost1';
 import TechBlogPost2 from './components/tech_logs/TechBlogPost2';
 import TechBlogPost3 from './components/tech_logs/TechBlogPost3';
@@ -27,6 +28,7 @@ const App = () => {
         <Route path="/blog-post-6" element={<BlogPost6 />} />
         <Route path="/blog-post-7" element={<BlogPost7 />} />
         <Route path="/blog-post-8" element={<BlogPost8 />} />
+        <Route path="/blog-post-9" element={<BlogPost9 />} />
         <Route path="/tech-log-post-1" element={<TechBlogPost1 />} />
         <Route path="/tech-log-post-2" element={<TechBlogPost2 />} />
         <Route path="/tech-log-post-3" element={<TechBlogPost3 />} />

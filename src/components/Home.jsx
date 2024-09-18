@@ -33,6 +33,18 @@ const Home = () => {
             </Dialog>
 
             <Container >
+            <Link to="/blog-post-9" style={{ textDecoration: 'none' }}>
+                    <Card style={{ margin: '20px 0', border: '5px solid #8fc641', borderRadius:'10px', backgroundColor:'#f1eafb', color:'#8fc641' }}>
+                        <CardContent>
+                            <Typography variant="h5" component="h2">
+                                Blog: Week 10
+                            </Typography>
+                            <Typography color="#a2d062">
+                                AWS (Part I) + Demo
+                            </Typography>
+                        </CardContent>
+                    </Card>
+            </Link>
             <Link to="/blog-post-8" style={{ textDecoration: 'none' }}>
                     <Card style={{ margin: '20px 0', border: '5px solid #8fc641', borderRadius:'10px', backgroundColor:'#f1eafb', color:'#8fc641' }}>
                         <CardContent>
